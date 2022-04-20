@@ -1,5 +1,8 @@
 import axios from "axios";
 
+export const prodUrl='https://pypbackendserver.herokuapp.com'
+export const localUrl='http://localhost:5050'
 const baseApi=axios.create({
-    baseURL:'http://localhost:5000'
+    baseURL:prodUrl
 })
+export default baseApi

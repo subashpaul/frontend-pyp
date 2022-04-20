@@ -7,8 +7,9 @@ import Home from './pages/Home';
 function App() {
   return (
     <>
-      {/* <Home/> */}
-      <ApproveFile/>
+    
+      <Home/>
+      {/* <ApproveFile/> */}
     </>
   );
 }
