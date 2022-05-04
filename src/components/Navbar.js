@@ -42,13 +42,15 @@ const Navbar = () => {
     })
     return (
         <AppBar position="static" sx={{ backgroundColor: "white" }}>
-            <Container maxWidth="xl" >
-                <Toolbar disableGutters >
+            <Container maxWidth="xl" sx={{ mx: 0, }} >
+                <Toolbar disableGutters sx={{
+                    width: '98vw', display: 'flex', justifyContent: "space-between"
+                }}  >
                     <Typography
                         variant="h6"
                         noWrap
                         component="div"
-                        sx={{ color: "black", mr: 2, display: { xs: 'none', md: 'flex' } }}
+                        sx={{ color: "black", ml: 1, display: { xs: 'none', md: 'flex' } }}
                     >
                         LOGO
                     </Typography>
@@ -152,8 +154,8 @@ const Navbar = () => {
 
                     </Box>
                 </Toolbar>
-            </Container>
-        </AppBar>
+            </Container >
+        </AppBar >
     );
 };
 export default Navbar;
