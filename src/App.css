@@ -13,25 +13,13 @@ body {
 }
 #sally {
   position: absolute;
-  width: 640px;
-  height: 620px;
-  left: 68vw;
-  top: 10vw;
+  /* width: 640px; */
+  /* height: 620px; */
+  width: 40rem;
+  height: 40rem;
+  left: 62vw;
+  top: 6rem;
   background-image: url(/Saly-10.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-@media only screen and (max-width: 1500px) {
-  #sally {
-    position: absolute;
-    width: 640px;
-    height: 620px;
-    /* left: 959px; */
-
-    top: 115px;
-    background-image: url(/Saly-10.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
